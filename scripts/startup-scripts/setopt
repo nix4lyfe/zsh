@@ -1,0 +1,14 @@
+setopt INC_APPEND_HISTORY #Add each line to the history as you type
+setopt SHARE_HISTORY
+setopt EXTENDED_HISTORY #ADD TIME AND DATE TO HISTORY
+setopt HIST_FIND_NO_DUPS #Dup history are not printed even if there
+setopt HIST_IGNORE_ALL_DUPS #Ignore duplicates in the History
+setopt HIST_SAVE_NO_DUPS #Don't save duplicates
+setopt HIST_IGNORE_SPACE #Ignore spaces in the History
+setopt CORRECT #Autocorrect
+setopt AUTO_CD #Auto cd if cd command not present
+ # Use modern completion system
+autoload -Uz compinit
+compinit
+# unalias run-help
+  # autoload run-help

@@ -1,0 +1,8 @@
+ # setopt NO_PROMPT_SUBST
+ # PS1='%m%# '
+ # PWD in prompt
+setopt PROMPT_SUBST
+ # PS1='%* %m ${PWD}%% '
+autoload -Uz promptinit
+promptinit
+prompt bart

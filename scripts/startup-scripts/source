@@ -1,0 +1,4 @@
+source $HOME/scripts/aliases
+source $HOME/scripts/startup-scripts/prompt
+source $HOME/scripts/startup-scripts/setopt
+source $HOME/scripts/startup-scripts/history
