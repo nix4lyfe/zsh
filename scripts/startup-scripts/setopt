@@ -5,6 +5,7 @@ setopt HIST_FIND_NO_DUPS #Dup history are not printed even if there
 setopt HIST_IGNORE_ALL_DUPS #Ignore duplicates in the History
 setopt HIST_SAVE_NO_DUPS #Don't save duplicates
 setopt HIST_IGNORE_SPACE #Ignore spaces in the History
+setopt INTERACTIVE_COMMENTS #Add comments right on the command line
 setopt CORRECT #Autocorrect
 setopt AUTO_CD #Auto cd if cd command not present
  # Use modern completion system
