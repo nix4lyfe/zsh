@@ -1,1 +1,1 @@
-source ~/scripts/startup-scripts/source
+source $HOME/scripts/startup-scripts/source
