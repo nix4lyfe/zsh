@@ -1,5 +1,4 @@
 alias free="free -h"
-alias purge="sync && echo 3 > /proc/sys/vm/drop_caches"
 alias srcz="source $HOME/.zshrc"
 alias cputemp="$HOME/scripts/cputemp.sh"
 alias laptopmode="$HOME/scripts/laptopmode.sh"
