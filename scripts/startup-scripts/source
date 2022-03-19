@@ -3,3 +3,5 @@ source $HOME/scripts/startup-scripts/prompt
 source $HOME/scripts/startup-scripts/setopt
 source $HOME/scripts/startup-scripts/history
 source $HOME/scripts/startup-scripts/completion
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
