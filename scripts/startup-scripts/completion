@@ -6,19 +6,15 @@ export CLICOLOR=1
 zstyle ':completion:*' use-compctl false
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
-zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 
 zstyle ':completion:*' list-suffixes true
 #zstyle ':completion:*' original false
-
-# The following lines were added by compinstall
-
 zstyle ':completion:*' auto-description 'specify: %d'
 zstyle ':completion:*' completions 1
 zstyle ':completion:*' expand suffix
 zstyle ':completion:*' format 'Completing %d'
 zstyle ':completion:*' glob 1
 zstyle ':completion:*' group-name ''
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+#zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' list-prompt '%SAt %p: Hit TAB for more, or the character to insert%s'
 zstyle ':completion:*' list-suffixes true
@@ -31,4 +27,3 @@ zstyle ':completion:*' verbose true
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
