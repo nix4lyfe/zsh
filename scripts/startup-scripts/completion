@@ -1,5 +1,5 @@
 #export FPATH="/usr/local/share/zsh-completions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.8/functions:/usr/local/share/zsh-navigation-tools"
-zstyle :compinstall filename '$HOME/appleuser/scripts/startup-scripts/completion'
+zstyle :compinstall filename '$HOME/scripts/startup-scripts/completion'
 zstyle ':completion:*' completer _expand _oldlist _expand _complete _ignored _match _correct _approximate _prefix
 export CLICOLOR=1
 #zstyle ':completion:*' menu select=long
