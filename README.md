@@ -1,3 +1,7 @@
 # zsh
 # This is a template of my .zshrc for Linux.
-# When cloned mv the .zshrc and the scripts folder to home folder, invoke zsh, and let the fun begin. 
+# Simply: 
+# 1 Clone into your home folder. 
+# 2 Make install.sh executble.
+# 3 Execute.
+# 4 Invoke zsh, and let the fun begin. 
