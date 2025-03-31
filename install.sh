@@ -35,3 +35,4 @@ if [[ "$prompt" == "y" || "$prompt" == "Y" || "$prompt" == "yes" || "$prompt" ==
 then
 rm -rf zsh
 fi
+exit
