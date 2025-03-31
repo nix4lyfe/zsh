@@ -27,6 +27,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 ./node-install.sh
 \. "$HOME/.nvm/nvm.sh"
 nvm install 22
+mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged
 curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 printf "%s " "Would you like to delete the downloaded zhs folder? <y/N>"
 read prompt
