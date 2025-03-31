@@ -1,7 +1,8 @@
-source $HOME/scripts/aliases
-source $HOME/scripts/startup-scripts/prompt
-source $HOME/scripts/startup-scripts/setopt
-source $HOME/scripts/startup-scripts/history
-source $HOME/scripts/startup-scripts/completion
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/scripts/aliases.zsh
+source $HOME/scripts/startup-scripts/prompt.zsh
+source $HOME/scripts/startup-scripts/setopt.zsh
+source $HOME/scripts/startup-scripts/history.zsh
+source $HOME/scripts/startup-scripts/completion.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/scripts/startup-scripts/functions.zsh
